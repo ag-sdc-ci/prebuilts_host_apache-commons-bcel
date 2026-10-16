@@ -1,0 +1,5 @@
+shadow prebuilt repo: apache-commons-bcel (host)
+  upstream package: org.apache.bcel:bcel v6.10.0, Maven Central
+  api-level: universal (JVM bytecode host library)
+  layout: lib64/apache-bcel.jar; Android.bp providing apache-bcel & bcel
+  date: 2026-10-16

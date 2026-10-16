@@ -1,0 +1,26 @@
+package {
+    default_applicable_licenses: ["external_apache-commons-bcel_license"],
+}
+
+license {
+    name: "external_apache-commons-bcel_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "NOTICE.txt",
+    ],
+}
+
+java_import {
+    name: "apache-bcel",
+    jars: ["lib64/apache-bcel.jar"],
+    host_supported: true,
+}
+
+java_import {
+    name: "bcel",
+    jars: ["lib64/apache-bcel.jar"],
+    host_supported: true,
+}
